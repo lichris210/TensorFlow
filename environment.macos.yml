@@ -1,0 +1,15 @@
+name: tf-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip:
+      - tensorflow-macos==2.16.2
+      - tensorflow-metal==1.2.0
+      - tensorboard==2.16.2
