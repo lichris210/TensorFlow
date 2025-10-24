@@ -1,0 +1,17 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS/Editor
+.DS_Store
+.vscode/
+.env
+
+# Data (keep large/raw out of git)
+data/
