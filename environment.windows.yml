@@ -1,0 +1,14 @@
+name: tf-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip:
+      - tensorflow==2.16.2   # CPU build on Windows; switch to GPU if you install CUDA
+      - tensorboard==2.16.2
